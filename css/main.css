@@ -157,7 +157,16 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.test {
+	border-style: solid;
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
 
+.textTitle {
+	color: black;
+}
 
 
 
