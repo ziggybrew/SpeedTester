@@ -157,18 +157,12 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-.test {
-	border-style: solid;
-	width: 90%;
-	margin: auto;
-	padding: 10px;
-}
-
 .textTitle {
 	color: black;
+	display: block;
 }
 
-#timer{
+#timer {
 	margin: 20px auto;
 	width: 600px;
 	text-align: center;
@@ -176,8 +170,22 @@ nav a:hover {
 	font-family: 'Orbitron', sans-serif;
 }
 
+#textbox {
+	display: block;
+	font-size: 20px;
+    margin: auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
 
-
+#userInput{
+	resize: none;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+}
 
 
 
