@@ -70,18 +70,16 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid gray;
 }
 
-.footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 10px solid gray;
 }
 
 .header-container,
-.footer-container,
 .main aside {
-    background: #f16529;
+    background: #8C9BA5;
 }
 
 .title {
@@ -108,7 +106,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: gray;
 }
 
 nav a:hover,
@@ -139,7 +137,12 @@ nav a:hover {
 
 .footer-container footer {
     color: white;
-    padding: 20px 0;
+    position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: #8C9BA5;
 }
 
 /* ===============
